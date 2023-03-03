@@ -1048,14 +1048,7 @@
 
     }
 
-    .header {
-        margin: 28px 48px 0 48px;
-        outline: 1px solid red;
-        padding-top: 16px;
-        display: flex;
-        justify-content: space-between;
-        
-    }
+    
 
     .header__logo {
         max-width: 176px;
