@@ -1,4 +1,4 @@
-.website__link {
+.place__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -9,13 +9,13 @@
     opacity: 1;
 }
 
-.website__link:hover {
+.place__link:hover {
     opacity: .5;
 }
 
 @media screen and (max-width: 568px) {
 
-    .website__link {
+    .place__link {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 780px) {
     
-    .website__link {
+    .place__link {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 960px) {
 
-    .website__link {
+    .place__link {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 1160px) {
     
-    .website__link {
+    .place__link {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;

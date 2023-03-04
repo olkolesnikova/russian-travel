@@ -1,4 +1,4 @@
-.website__url-heading {
+.place__url-heading {
     margin: 0;
     font-family: 'Inter';
     font-style: normal;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 568px) {
 
-    .website__url-heading {
+    .place__url-heading {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 780px) {
     
-    .website__url-heading {
+    .place__url-heading {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 960px) {
 
-    .website__url-heading {
+    .place__url-heading {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 1160px) {
     
-    .website__url-heading {
+    .place__url-heading {
         margin: 0;
         font-family: 'Inter';
         font-style: normal;
