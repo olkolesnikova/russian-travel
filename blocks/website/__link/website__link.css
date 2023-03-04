@@ -1,0 +1,67 @@
+.website__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: white;
+    opacity: 1;
+}
+
+.website__link:hover {
+    opacity: .5;
+}
+
+@media screen and (max-width: 568px) {
+
+    .website__link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    
+    .website__link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .website__link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    
+    .website__link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: white;
+    }
+}

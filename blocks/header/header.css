@@ -7,17 +7,14 @@
 @media screen and (max-width: 568px) {
 
     .header {
-        margin: 16px 16px 0 16px;
-       
-        
+        margin: 16px 16px 0 16px;              
     }
 }
 
 @media screen and (max-width: 780px) {
     
     .header {
-        margin: 28px 24px 0 24px;
-        
+        margin: 28px 24px 0 24px;        
     }
 
 }
@@ -25,15 +22,13 @@
 @media screen and (max-width: 960px) {
 
     .header {
-        margin: 28px 24px 0 24px;
-        
+        margin: 28px 24px 0 24px;        
     }
 }
 
 @media screen and (max-width: 1160px) {
     
     .header {
-        margin: 28px 48px 0 48px;
-             
+        margin: 28px 48px 0 48px;             
     }
 }

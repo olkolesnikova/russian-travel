@@ -1,0 +1,39 @@
+.page__places {
+    margin-top: 75px;
+}
+
+@media screen and (max-width: 568px) {
+
+    .page__places {
+        margin-top: 64px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+   
+    .page__places {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    
+    .page__places {
+        margin-top: 75px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .page__places {
+        margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    
+    .page__places {
+        margin-top: 92px;
+    }
+}
