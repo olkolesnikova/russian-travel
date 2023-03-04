@@ -48,7 +48,7 @@
     .place__paragraph {
         margin: 0;
         margin-bottom: 25px;
-        grid-area: paragraph;        
+        grid-area: paragraph;
         font-size: 16px;
         
     }
