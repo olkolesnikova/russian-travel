@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     padding: 245px 312px 245px 312px;
-    box-sizing: border-box;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     box-sizing: border-box;
@@ -102,7 +101,6 @@
         flex-direction: column;
         justify-content: center;
         padding: 115px 104px 115px 104px;
-        box-sizing: border-box;
         background-image: url(./images/cover-trains.jpg);
         background-size: cover;
         box-sizing: border-box;
@@ -142,7 +140,6 @@
         flex-direction: column;
         justify-content: center;
         padding: 195px 232px 195px 232px;
-        box-sizing: border-box;
         background-image: url(./images/cover-trains.jpg);
         background-size: cover;
         box-sizing: border-box;
