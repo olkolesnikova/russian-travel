@@ -3,5 +3,18 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    column-gap: 18px;
+    min-height: 18px;
+}
+
+@media screen and (max-width: 568px) {
+
+    .footer__nav-list {
+        width: 186px;
+        height: 310px;
+        margin: 0;
+        flex-direction: column;
+        row-gap: 32px;
+    }
 }
 

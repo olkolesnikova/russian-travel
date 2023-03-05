@@ -2,21 +2,11 @@
     margin-top: 92px;
 }
 
-@media screen and (max-width: 568px) {
-
-    .page__cover {
-        margin-top: 66px;
-    }
-
-}
-
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1160px) {
     
     .page__cover {
-        margin-top: 66px;
+        margin-top: 92px;
     }
-
-
 }
 
 @media screen and (max-width: 960px) {
@@ -26,9 +16,16 @@
     }
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 780px) {
     
     .page__cover {
-        margin-top: 92px;
+        margin-top: 66px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+
+    .page__cover {
+        margin-top: 66px;
     }
 }

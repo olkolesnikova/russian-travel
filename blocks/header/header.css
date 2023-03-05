@@ -1,22 +1,15 @@
 .header {
-    margin: 28px 48px 0 48px;
+    width: 928px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
-@media screen and (max-width: 568px) {
-
-    .header {
-        margin: 16px 16px 0 16px;              
-    }
-}
-
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1160px) {
     
     .header {
-        margin: 28px 24px 0 24px;        
+        margin: 28px 48px 0 48px;             
     }
-
 }
 
 @media screen and (max-width: 960px) {
@@ -26,9 +19,19 @@
     }
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 780px) {
     
     .header {
-        margin: 28px 48px 0 48px;             
+        width: 720px;
+        margin: 28px 24px 0 24px;        
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+
+    .header {
+        width: 288px;
+        margin: 16px 16px 0 16px;              
     }
 }
