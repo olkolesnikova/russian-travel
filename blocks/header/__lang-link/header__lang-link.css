@@ -11,26 +11,11 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    text-decoration: none;
 }
 
-.header__lang-link:first-of-type {
-    text-decoration-line: underline;
-}
-
-@media screen and (max-width: 1160px) {
-    
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 20px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-
-    .header__lang-link {
-        font-size: 24px;
-        line-height: 28px;
-    }
+.header__lang-link_enabled {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 780px) {

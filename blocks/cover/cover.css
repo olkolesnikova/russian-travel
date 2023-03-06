@@ -1,5 +1,5 @@
 .cover {
-    width: 1184px;
+    max-width: 1184px;
     min-height: 740px;
     margin: 0 48px;
     display: flex;
@@ -30,9 +30,10 @@
     background-color: #2A2C2F;
     opacity: 0.3;
     z-index: -1;
+    transition: opacity 200ms ease-in-out;
 }
 
-.cover:hover {
+.cover:hover:before {
     opacity: .5;
 }
 
