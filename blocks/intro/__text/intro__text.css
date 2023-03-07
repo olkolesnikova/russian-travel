@@ -31,8 +31,9 @@
 @media screen and (max-width: 780px) {
     
     .intro__text {
+        width: 100%;
         margin: 0 auto;
-        width: 720px;
+        max-width: 720px;
         height: 208px;        
     }
 
