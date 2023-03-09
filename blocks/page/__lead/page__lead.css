@@ -1,18 +1,18 @@
 .page__lead {
-    padding-top: 75px;
+    margin-top: 75px;
 }
 
 @media screen and (max-width: 1160px) {
     
     .page__lead {
-        padding-top: 48px;
+        margin-top: 48px;
     }
 }
 
 @media screen and (max-width: 960px) {
 
     .page__lead {
-        padding-top: 23px;
+        margin-top: 23px;
     }
 }
 
@@ -20,7 +20,7 @@
 @media screen and (max-width: 780px) {
     
     .page__lead {
-        padding-top: 23px;
+        margin-top: 23px;
     }
 
 }
@@ -28,6 +28,6 @@
 @media screen and (max-width: 568px) {
 
     .page__lead {
-        padding-top: 48px;
+        margin-top: 48px;
     }
 }

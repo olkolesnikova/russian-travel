@@ -1,8 +1,8 @@
 .intro__text {
     margin: 0;
     margin-bottom: 33px;
-    width: 690px;
-    height: 208px;
+    width: 100%;
+    max-width: 690px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -14,27 +14,21 @@
 @media screen and (max-width: 1160px) {
     
     .intro__text {
-        margin-right: 286px;
-        margin-top: 40px;
-        font-size: 14px;
+        margin-right: 286px;        
     }
 }
 
 @media screen and (max-width: 960px) {
 
     .intro__text {
-        margin: 0 auto;
-        padding-top: 40px;
+        margin: 0 auto;        
     }
 }
 
 @media screen and (max-width: 780px) {
     
     .intro__text {
-        width: 100%;
-        margin: 0 auto;
-        max-width: 720px;
-        height: 208px;        
+       max-width: 720px;       
     }
 
 }
@@ -42,10 +36,7 @@
 @media screen and (max-width: 568px) {
 
     .intro__text {
-        width: 288px;
-        height: 520px;
-        margin: 0 auto;
-        padding-top: 40px;
-        box-sizing: border-box;
+        max-width: 288px;
+        margin-top: 40px;        
     }
 }

@@ -1,23 +1,22 @@
-.cover {
+.cover__link {
     max-width: 1184px;
     min-height: 740px;
-    margin: 0 48px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 245px 312px 245px 312px;
+    align-items: center;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     box-sizing: border-box;
     position: relative;
     z-index: 0;
-    overflow: hidden;
     color: #FFFFFF;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.cover:before {
+.cover__link:before {
     content: '';
     display: block;
     position: absolute;
@@ -28,49 +27,46 @@
     width: 100%;
     height: 100%;
     background-color: #2A2C2F;
-    opacity: 0.3;
+    opacity: 0.5;
     z-index: -1;
     transition: opacity 200ms ease-in-out;
 }
 
-.cover:hover:before {
-    opacity: .5;
+.cover__link:hover:before {
+    opacity: .3;
 }
 
 @media screen and (max-width: 1160px) {
     
-    .cover {
+    .cover__link {
         width: 100%;
         margin: 0;
         min-height: 640px;
-        padding: 195px 232px 195px 232px;
     }
 }
 
 @media screen and (max-width: 960px) {
 
-    .cover {
+    .cover__link {
         width: 100%;
         min-height: 480px;
-        padding: 115px 104px 115px 104px;
     }
 }
 
 @media screen and (max-width: 780px) {
     
-    .cover {
+    .cover__link {
         width: 100%;
-        min-height: 200px;
+        min-height: 480px;
     }
 
 }
 
 @media screen and (max-width: 568px) {
 
-    .cover {
+    .cover__link {
         width: 100%;
         min-height: 200px;
-        padding: 33px 16px 33px 16px;
     }
 
 }

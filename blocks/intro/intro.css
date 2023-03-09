@@ -1,8 +1,7 @@
 .intro {
     margin: 0;
-    margin: 0 442px 0 148px;
-    height: 429px;
-    width: 690px;
+    margin: 0 0 0 148px;
+    max-width: 690px;
     box-sizing: border-box;
 }
 
@@ -10,8 +9,7 @@
     
     .intro {
         margin: 0 286px 0 48px;
-        height: 429px;
-        width: 690px;
+        max-width: 690px;
     }
 }
 
@@ -19,8 +17,7 @@
 
     .intro {
         margin: 0 auto;
-        width: 720px;
-        height: 429px;
+        max-width: 720px;
     }
 }
 
@@ -28,16 +25,12 @@
     
     .intro {
         width: 100%;
-        margin: 0 auto;
-        height: 429px;
     }
 }
 
 @media screen and (max-width: 568px) {
 
     .intro {
-        margin: 0 auto;
-        width: 288px;
-        height: 754px;
+        max-width: 288px;
     }
 }

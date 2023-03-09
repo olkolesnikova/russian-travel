@@ -9,16 +9,8 @@
     text-align: center;
     color: white;
     text-decoration: none;
-    padding-bottom: 32px;
-}
-
-@media screen and (max-width: 780px) {
-
-    .cover__title {
-        padding-top: 33px;
-        font-size: 72px;
-        line-height: 76px;
-    }
+    margin-bottom: 32px;
+    max-width: 560px;
 }
 
 @media screen and (max-width: 568px) {
@@ -27,6 +19,5 @@
         max-width: 520px;
         font-size: 32px;
         line-height: 35px;
-        padding: 0;
     }
 }

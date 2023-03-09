@@ -2,24 +2,10 @@
     margin-top: 92px;
 }
 
-@media screen and (max-width: 1160px) {
-    
-    .page__cover {
-        margin-top: 92px;
-    }
-}
-
 @media screen and (max-width: 960px) {
 
     .page__cover {
         margin-top: 90px;
-    }
-}
-
-@media screen and (max-width: 780px) {
-    
-    .page__cover {
-        margin-top: 66px;
     }
 }
 

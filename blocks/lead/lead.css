@@ -2,39 +2,11 @@
     margin: 0 auto;
     max-width: 984px;
     width: 100%;
-    height: 1005px;
-    
 }
 
 @media screen and (max-width: 1160px) {
     
     .lead {
         max-width: 928px;
-        height: 962px;  
-    }
-}
-
-@media screen and (max-width: 960px) {
-
-    .lead {
-        width: 100%;
-        height: 862px;        
-    }
-}
-
-@media screen and (max-width: 780px) {
-    
-    .lead {
-        width: 100%;
-        height: 862px;
-    }
-
-}
-
-@media screen and (max-width: 568px) {
-
-    .lead {
-        width: 100%;
-        height: 406px;        
     }
 }

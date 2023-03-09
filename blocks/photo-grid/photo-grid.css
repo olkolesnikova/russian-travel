@@ -1,14 +1,11 @@
 .photo-grid {
-    
     margin: 0 auto;
     max-width: 1184px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px 16px;
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box;    
 }
 
 @media screen and (max-width: 1160px) {
