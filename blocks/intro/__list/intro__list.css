@@ -3,7 +3,6 @@
     padding: 0;
     max-width: 690px;
     width: 100%;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -12,26 +11,11 @@
     list-style: none;
 }
 
-@media screen and (max-width: 1160px) {
-
-    .intro__list {
-        margin-top: 33px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-
-    .intro__list {
-        margin: 33px 24px 0 24px;
-    }
-}
-
 @media screen and (max-width: 780px) {
 
     .intro__list {
         margin: 0 auto;
-        max-width: 720px;
-        margin-top: 33px;
+        max-width: 720px;        
     }
 
 }
@@ -39,8 +23,6 @@
 @media screen and (max-width: 568px) {
 
     .intro__list {
-        max-width: 288px;
-        margin: 0 auto;
-        margin-top: 34px;
+        max-width: 288px;       
     }
 }

@@ -14,6 +14,8 @@
     color: #FFFFFF;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .cover__link:before {
@@ -27,19 +29,20 @@
     width: 100%;
     height: 100%;
     background-color: #2A2C2F;
-    opacity: 0.5;
+    opacity: 0.3;
     z-index: -1;
     transition: opacity 200ms ease-in-out;
 }
 
 .cover__link:hover:before {
-    opacity: .3;
+    opacity: .8;
 }
+
+
 
 @media screen and (max-width: 1160px) {
     
     .cover__link {
-        width: 100%;
         margin: 0;
         min-height: 640px;
     }
@@ -48,7 +51,6 @@
 @media screen and (max-width: 960px) {
 
     .cover__link {
-        width: 100%;
         min-height: 480px;
     }
 }
@@ -56,7 +58,6 @@
 @media screen and (max-width: 780px) {
     
     .cover__link {
-        width: 100%;
         min-height: 480px;
     }
 
@@ -65,7 +66,6 @@
 @media screen and (max-width: 568px) {
 
     .cover__link {
-        width: 100%;
         min-height: 200px;
     }
 

@@ -1,28 +1,13 @@
 .intro__text {
     margin: 0;
-    margin-bottom: 33px;
     width: 100%;
     max-width: 690px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: white;
-}
-
-@media screen and (max-width: 1160px) {
-    
-    .intro__text {
-        margin-right: 286px;        
-    }
-}
-
-@media screen and (max-width: 960px) {
-
-    .intro__text {
-        margin: 0 auto;        
-    }
+    margin-bottom: 33px;
 }
 
 @media screen and (max-width: 780px) {
@@ -30,13 +15,12 @@
     .intro__text {
        max-width: 720px;       
     }
-
 }
 
 @media screen and (max-width: 568px) {
 
     .intro__text {
         max-width: 288px;
-        margin-top: 40px;        
+        margin-bottom: 34px;
     }
 }

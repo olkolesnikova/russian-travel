@@ -2,13 +2,11 @@
     max-width: 186px;
     width: 100%;
     margin: 0;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: white;
-
 }
 
 @media screen and (max-width: 568px) {

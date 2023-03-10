@@ -2,7 +2,6 @@
     margin: 0;
     margin-bottom: 26px;
     grid-area: paragraph;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -24,17 +23,8 @@
 @media screen and (max-width: 960px) {
 
     .place__paragraph {
-        margin-bottom: 25px;
         font-size: 16px;
     }
-}
-
-@media screen and (max-width: 780px) {
-
-    .place__paragraph {
-        font-size: 16px;
-    }
-
 }
 
 @media screen and (max-width: 568px) {
@@ -44,6 +34,5 @@
         width: 100%;
         margin: 0 auto;
         margin-bottom: 25px;
-        font-size: 16px;
     }
 }

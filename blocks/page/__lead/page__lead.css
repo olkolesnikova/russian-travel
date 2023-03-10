@@ -16,15 +16,6 @@
     }
 }
 
-
-@media screen and (max-width: 780px) {
-    
-    .page__lead {
-        margin-top: 23px;
-    }
-
-}
-
 @media screen and (max-width: 568px) {
 
     .page__lead {

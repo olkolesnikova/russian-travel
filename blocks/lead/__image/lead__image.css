@@ -2,8 +2,7 @@
     margin: 0 auto;
     max-width: 984px;
     height: 615px;
-    background-size: cover;
-    
+    background-size: cover;    
 }
 
 @media screen and (max-width: 1160px) {
@@ -18,23 +17,13 @@
 
     .lead__image {
         width: 100%;
-        height: 480px;        
+        height: 480px;
     }
-}
-
-@media screen and (max-width: 780px) {
-
-    .lead__image {
-        width: 100%;
-        height: 480px;        
-    }
-
 }
 
 @media screen and (max-width: 568px) {
 
     .lead__image {
-        width: 100%;
         height: 200px;        
     }
 }
