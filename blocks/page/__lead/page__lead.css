@@ -1,23 +1,9 @@
 .page__lead {
-    margin-top: 75px;
+    margin-top: 56px;
 }
 
 @media screen and (max-width: 1160px) {
     
-    .page__lead {
-        margin-top: 48px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-
-    .page__lead {
-        margin-top: 23px;
-    }
-}
-
-@media screen and (max-width: 568px) {
-
     .page__lead {
         margin-top: 48px;
     }

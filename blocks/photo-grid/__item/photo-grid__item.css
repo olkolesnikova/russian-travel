@@ -20,17 +20,11 @@
     }
 }
 
-@media screen and (max-width: 780px) {
-    
-    .photo-grid__item {
-        height: 264px;
-    }
-}
-
 @media screen and (max-width: 568px) {
 
     .photo-grid__item {
         margin: 0 auto;
         max-width: 288px;
+        height: 216px;
     }
 }

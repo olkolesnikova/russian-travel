@@ -30,7 +30,7 @@
 @media screen and (max-width: 960px) {
 
     .place {
-        max-width: 720px;
+        
         grid-template-columns: 340px 1fr;
         column-gap: 28px;
     }
@@ -39,9 +39,9 @@
 @media screen and (max-width: 780px) {
 
     .place {
-        grid-template-columns: 300px 1fr;
-        grid-template-rows: min-content max-content;
-        column-gap: 28px;
+        max-width: 720px;
+        grid-template-columns: fit-content(340px) 1fr;
+        grid-template-rows: max-content min-content;
         margin-bottom: 73px;
     }
 
@@ -58,7 +58,6 @@
             "paragraph";
         grid-template-columns: repeat(1, 1fr);
         row-gap: 32px;
-        padding-bottom: 0;
         margin-bottom: 50px;
     }
 }
