@@ -16,7 +16,7 @@
     opacity: .5;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 767px) {
     
     .footer__nav-link {
         padding-bottom: 24px;

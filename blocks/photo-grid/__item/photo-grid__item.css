@@ -20,10 +20,18 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
 
     .photo-grid__item {
         margin: 0 auto;
+        max-width: 80%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+
+    .photo-grid__item {
         max-width: 288px;
         height: 216px;
     }

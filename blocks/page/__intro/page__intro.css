@@ -2,7 +2,7 @@
     margin-top: 92px;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 767px) {
     
     .page__intro {
         margin-top: 88px;

@@ -21,16 +21,18 @@
 @media screen and (max-width: 960px) {
 
     .photo-grid {
+        max-width: 720px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        column-gap: 12px;
+        column-gap: 16px;
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 767px) {
     
     .photo-grid {
-        max-width: 720px;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 12px;
     }
 }
 
@@ -38,7 +40,5 @@
 
     .photo-grid {
         max-width: 288px;
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 12px;
     }
 }
