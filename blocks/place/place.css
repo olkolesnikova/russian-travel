@@ -46,17 +46,10 @@
             "image"
             "paragraph";
         grid-template-columns: repeat(1, 1fr);
-        margin-bottom: 73px;
         row-gap: 32px;
-    }
-
-}
-
-@media screen and (max-width: 568px) {
-
-    .place {
         width: 100%;
-        row-gap: 32px;
         margin-bottom: 50px;
     }
+
 }
+

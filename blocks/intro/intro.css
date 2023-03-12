@@ -1,15 +1,15 @@
 .intro {
     margin: 0;
-    margin-left: 148px;
+    margin: 0 0 0 148px;
     max-width: 690px;
     box-sizing: border-box;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 1160px) {
     
     .intro {
         margin: 0 286px 0 48px;
+        max-width: 690px;
     }
 }
 
@@ -24,14 +24,8 @@
 @media screen and (max-width: 767px) {
     
     .intro {
-        margin-left: 16px;
-        margin-right: 16px;
+      
+       margin-left: 16px;
     }
 }
 
-@media screen and (max-width: 568px) {
-
-    .intro {
-        max-width: 288px;
-    }
-}
